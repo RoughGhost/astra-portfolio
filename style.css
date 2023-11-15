@@ -90,6 +90,12 @@ button:focus {
   outline: none;
 }
 
+.logo {
+  display: inline-block; /* Ensures the logo doesn't take the full width */
+  max-width: 200px; /* Set the maximum width for the logo */
+  height: auto;
+}
+
 ul,
 ol {
   margin: 0px;
@@ -445,8 +451,11 @@ p {
 }
 
 .navbar-brand img {
-  height: 50px fit-content;
-  width: 50px fit-content;
+  /* height: 50px fit-content;
+  width: 50px fit-content; */
+  height: 50px;
+  display: block;
+  max-width: 150px;
 }
 .navbar-area.navbar-nine
   .navbar
